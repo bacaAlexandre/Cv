@@ -45,9 +45,11 @@
         </div>
         <div class="contact">
           <h3>Contact</h3>
-          <ul>
-            <li><a href="#" class="icone iconeContact"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-            <li><a href="#" class="icone iconeContact"><i class="fa fa-phone-square" aria-hidden="true"></i></a></li>
+          <ul class="listeContact">
+            <li><button type="button" name="button" class="icone iconeContact"><i class="fa fa-envelope" aria-hidden="true"></i></button></li>
+
+            <li><button type="button" name="button" class="icone iconeContact"><i class="fa fa-phone-square" aria-hidden="true"></i></button></li>
+
           </ul>
         </div>
         <div class="presentation">
@@ -56,10 +58,16 @@
         </div>
         <div class="liens">
           <h3>Mes liens </h3>
-          <ul>
-            <li><a href="#" class="icone"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-            <li><a href="#" class="icone"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            <li><a href="#" class="icone"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+          <ul class="listeLiens">
+            <li>
+              <button type="button" name="button" class="icone"><i class="fa fa-twitter" aria-hidden="true"></i></button>
+            </li>
+            <li>
+              <button type="button" name="button" class="icone"><i class="fa fa-linkedin" aria-hidden="true"></i></button>
+            </li>
+            <li>
+              <button type="button" name="button" class="icone"><i class="fa fa-github" aria-hidden="true"></i></button>
+            </li>
           </ul>
         </div>
       </aside>

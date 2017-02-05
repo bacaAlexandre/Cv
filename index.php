@@ -40,16 +40,14 @@
           <ul>
             <li>27 ans</li>
             <li>Permis B</li>
-            <li>Hautot sur mer 76550</li>
+            <li>Dieppe 76200</li>
           </ul>
         </div>
         <div class="contact">
           <h3>Contact</h3>
           <ul class="listeContact">
             <li><button type="button" name="button" class="icone iconeContact"><i class="fa fa-envelope" aria-hidden="true"></i></button></li>
-
             <li><button type="button" name="button" class="icone iconeContact"><i class="fa fa-phone-square" aria-hidden="true"></i></button></li>
-
           </ul>
         </div>
         <div class="presentation">

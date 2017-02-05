@@ -106,10 +106,15 @@ aside div {
 }
 
 .icone {
-  font-size: 2em;
+  font-size: 1.5em;
   color: black;
-  padding: 5px 10px;
+  padding: 5px 20px;
   border: none;
+}
+
+.icone:hover {
+  color: white;
+  background: black;
 }
 /* Partie Contact */
 .listeContact li {
@@ -123,8 +128,8 @@ aside div {
 }
 
 .iconeContact {
-  font-size: 3em;
-  padding: 5px 20px;
+  font-size: 2em;
+  padding: 5px 30px;
 }
 /* -----------------------------------------------
   MAIN

@@ -62,6 +62,11 @@ header h2 {
 .liste_navigation a:last-child {
   border-right: 1px solid black;
 }
+
+.liste_navigation a:hover {
+  background: rgba(12, 76, 233, 1);
+  color: white;
+}
 /* -----------------------------------------------
   WRAPPER
 ----------------------------------------------- */

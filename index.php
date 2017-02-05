@@ -10,10 +10,24 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="asset/css/master.css">
 
     <!-- Lien cdm pour fontAwesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="asset/css/master.css">
+
+    <!-- Lien pour jQuerry -->
+    <script
+			  src="https://code.jquery.com/jquery-3.1.1.js"
+			  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+			  crossorigin="anonymous">
+    </script>
+
+    <script type="text/javascript" src="asset/js/master.js">
+
+    </script>
+
+    </script>
     <title></title>
   </head>
   <body>
@@ -22,12 +36,12 @@
         <h1>Alexandre Baca</h1>
         <h2>Développeur/Intégrateur web</h2>
         <nav>
-          <ul class="liste_navigation">
-            <a href="#"><li>Accueil</li></a>
-            <a href="#"><li>Expériences</li></a>
-            <a href="#"><li>Formations</li></a>
-            <a href="#"><li>Compétences</li></a>
-            <a href="#"><li>Contact</li></a>
+          <ul class="liste_navigation"></li>
+            <li><a href="#" class="nav-a" id="accueil">Accueil</a></li>
+            <li><a href="#" class="nav-a" id="experiences">Expériences</a></li>
+            <li><a href="#" class="nav-a" id="formations">Formations</a></li>
+            <li><a href="#" class="nav-a" id="competences">Compétences</a></li>
+            <li><a href="#" class="nav-a" id="contact">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -71,7 +85,7 @@
       </aside>
       <main>
         <div class="conteneur">
-          <div class="experiences">
+          <div class="experiences test">
             <h2>Expériences</h2>
             <article class="">
               <h3>Dessinateur industriel</h3>
@@ -89,7 +103,7 @@
               <p>2011</p>
             </article>
           </div>
-          <div class="formations">
+          <div class="formations test">
             <h2>Formations</h2>
             <article class="">
               <h3>Certificats de compétence professionnelle</h3>
@@ -117,7 +131,7 @@
             </article>
           </div>
         </div>
-        <div class="competences">
+        <div class="competences test">
           <h2>Compétences</h2>
           <article class="web">
             <h3>Web</h3>

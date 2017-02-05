@@ -50,26 +50,22 @@ header h2 {
 
 .header {
   width: 70%;
-  margin: auto;
+  margin: auto auto 10px;
 }
 
 .liste_navigation {
   display: flex;
 }
 
-.liste_navigation a {
+.nav-a {
+  display: block;
   padding: 10px;
-  border-left: 1px solid black;
   text-decoration: none;
   color: black;
 }
 
-.liste_navigation a:last-child {
-  border-right: 1px solid black;
-}
-
-.liste_navigation a:hover {
-  background: rgba(12, 76, 233, 1);
+.nav-a:hover {
+  background: rgba(12, 76, 233, 0.5);
   color: white;
 }
 /* -----------------------------------------------
@@ -233,4 +229,15 @@ article {
     width: 90%;
     margin: auto;
   }
+}
+/* -----------------------------------------------
+  Pour JS
+----------------------------------------------- */
+.hidden {
+  display: none;
+}
+
+.selection {
+  background: rgba(12, 76, 233, 0.5);
+  color: white;
 }

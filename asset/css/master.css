@@ -49,7 +49,7 @@ header h2 {
 }
 
 .header {
-  max-width: 70%;
+  width: 70%;
   margin: auto;
 }
 
@@ -72,22 +72,20 @@ header h2 {
   background: rgba(12, 76, 233, 1);
   color: white;
 }
-
 /* -----------------------------------------------
   WRAPPER
 ----------------------------------------------- */
 .wrapper {
-  max-width: 70%;
+  width: 70%;
   margin: auto;
   display: flex;
   justify-content: space-between;
 }
-
 /* -----------------------------------------------
   Aside
 ----------------------------------------------- */
 aside {
-  width: 20%;
+  width: 25%;
   margin-right: 50px;
 }
 
@@ -106,7 +104,6 @@ aside div {
   border: 1px solid black;
   border-radius: 0 25px;
 }
-
 /* Partie Mes liens */
 .liens ul {
   display: flex;
@@ -145,7 +142,6 @@ aside div {
 
 .iconeContact {
   font-size: 2em;
-
 }
 /* -----------------------------------------------
   MAIN
@@ -189,4 +185,52 @@ article {
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
+}
+/* -----------------------------------------------
+  media inferieur à 800px
+----------------------------------------------- */
+@media (max-width: 800px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  main {
+    flex-direction: column-reverse;
+  }
+
+  .conteneur {
+    width: 90%;
+  }
+
+  .competences {
+    width: 90%;
+  }
+}
+/* -----------------------------------------------
+  media inferieur à 600px
+----------------------------------------------- */
+@media (max-width: 600px) {
+  .header {
+    width: 90%;
+  }
+
+  .liste_navigation {
+    flex-wrap: wrap;
+  }
+
+  .wrapper {
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  aside {
+    width: 90%;
+    margin: auto;
+  }
+
+  main {
+    width: 90%;
+    margin: auto;
+  }
 }

@@ -31,12 +31,22 @@ $(function () {
     }
   })
 
-
-
   function hide() {
     $(".nav-a").removeClass("selection");
     $(".test").removeClass("affichage");
     $(".test").removeClass("zoom");
     $(".test").addClass("hidden");
+    $(".infoTel").addClass("hidden");
+    $(".infoMail").addClass("hidden");
   }
+
+  $("#email").click(function(){
+    $(".infoMail").toggleClass("hidden");
+    $(".infoTel").addClass("hidden");
+  })
+
+  $("#telephone").click(function(){
+    $(".infoTel").toggleClass("hidden");
+    $(".infoMail").addClass("hidden");
+  })
 })

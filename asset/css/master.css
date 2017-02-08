@@ -142,6 +142,13 @@ aside div {
 .iconeContact {
   font-size: 2em;
 }
+/*info bull*/
+.infoMail,
+.infoTel {
+  position: absolute;
+}
+
+
 /*Partie formulaire*/
 .formulaire {
   width: 90%;

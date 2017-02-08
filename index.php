@@ -65,8 +65,17 @@
         <div class="contact">
           <h3>Contact</h3>
           <ul class="listeContact">
-            <li><button type="button" name="button" class="icone iconeContact"><i class="fa fa-envelope" aria-hidden="true"></i></button></li>
-            <li><button type="button" name="button" class="icone iconeContact"><i class="fa fa-phone-square" aria-hidden="true"></i></button></li>
+            <li>
+              <button type="button" name="button" class="icone iconeContact " id="email"><i class="fa fa-envelope" aria-hidden="true"></i></button>
+              <div class="infoMail hidden">
+                <p>Alexandre76b@aol.com</p>
+              </div>
+            </li>
+            <li>
+              <button type="button" name="button" class="icone iconeContact" id="telephone"><i class="fa fa-phone-square" aria-hidden="true"></i></button>
+              <div class="infoTel hidden">
+                <p>06 64 84 09 90</p>
+            </div></li>
           </ul>
         </div>
         <div class="presentation">

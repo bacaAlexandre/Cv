@@ -187,7 +187,7 @@
           </p>
           <p>
             <label for="">E-mail :
-              <input type="mail" name="email" value="">
+              <input type="email" name="email" value="">
             </label>
           </p>
           <p>

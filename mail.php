@@ -10,22 +10,38 @@ if(empty($_POST['nom'])){
     "erreur" => "Veiller renseigner un nom",
   ));
 }else{
-  if(empty($_POST['objet'])){
+  if(empty($_POST['email'])){
     echo json_encode(array(
       "success" => false,
-      "erreur" => "Veiller renseigner un objet",
+      "erreur" => "Veiller renseigner un email",
     ));
   }else {
-    if(empty($_POST['message'])){
+    if(empty($_POST['objet'])){
       echo json_encode(array(
         "success" => false,
-        "erreur" => "Veiller renseigner un message",
+        "erreur" => "Veiller renseigner un objet",
       ));
-    }else{
-      echo json_encode(array(
-        "success" => true,
-      ));
+    }else {
+      if(empty($_POST['message'])){
+        echo json_encode(array(
+          "success" => false,
+          "erreur" => "Veiller renseigner un message",
+        ));
+      }else{
+        $subject = $_POST['objet'];
+        $message = "Email envoyer par".$_POST['nom']." ".$_POST['prenom'];
+        $message = "Adress email pour repondre".$_POST['email'];
+        $message .= $_POST['message'];
 
+        $headers  = 'MIME-Version: 1.0' . "\r\n";
+        $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+
+        mail("Alexandre76b@aol.com", $subject, $message, $headers);
+
+        echo json_encode(array(
+          "success" => true,
+        ));
+      }
     }
   }
 }

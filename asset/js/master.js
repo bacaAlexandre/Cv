@@ -5,8 +5,6 @@ $(function () {
     $(this).addClass("selection");
     var bloc = $(this).attr("id");
 
-
-
     if (bloc === 'accueil'){
       $(".conteneur").removeClass("hidden");
       $(".experiences").removeClass("hidden");
@@ -49,4 +47,32 @@ $(function () {
     $(".infoTel").toggleClass("hidden");
     $(".infoMail").addClass("hidden");
   })
+
+  $(".formulaire").on('submit', function(e){
+    e.preventDefault();
+
+    var datas = $(this).serializeArray();
+
+    email(datas);
+  })
+
+
+  var email = function(credentials){
+    $.ajax({
+      method: "POST",
+      url : "mail.php",
+      data : credentials,
+      success : function(response){
+        if (response.success){
+          $('#retour').children().remove();
+          $('#retour').append(
+            '<p id="valide">Message envoyer</p>');
+        }else{
+          $('#retour').children().remove();
+          $('#retour').append(
+            '<p id="erreur">'+response.erreur+'</p>');
+        }
+      }
+    })
+  }
 })

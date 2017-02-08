@@ -174,34 +174,36 @@
             </ul>
           </article>
         </div>
-        <form class="formulaire hidden test" action="index.html" method="post">
+        <form class="formulaire hidden test" action="index.php" method="post">
           <p>
             <label for="">Prénom :
-              <input type="text" name="" value="">
+              <input type="text" name="prenom" value="">
             </label>
           </p>
           <p>
             <label for="">Nom :
-              <input type="text" name="" value="">
+              <input type="text" name="nom" value="">
             </label>
           </p>
           <p>
             <label for="">E-mail :
-              <input type="mail" name="" value="">
+              <input type="mail" name="email" value="">
             </label>
           </p>
           <p>
             <label for="">Objet :
-              <input type="text" name="" value="">
+              <input type="text" name="objet" value="">
             </label>
           </p>
           <p>
             <label for="">Message :
-              <textarea name="name" rows="8" cols="80">
-              </textarea>
+              <textarea name="message" rows="8" cols="80"></textarea>
             </label>
           </p>
           <input type="submit" class="bouton" name="" value="Envoyer">
+          <div id="retour">
+
+          </div>
         </form>
       </main>
     </div>

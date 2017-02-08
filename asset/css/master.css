@@ -147,8 +147,6 @@ aside div {
 .infoTel {
   position: absolute;
 }
-
-
 /*Partie formulaire*/
 .formulaire {
   width: 90%;
@@ -170,6 +168,16 @@ aside div {
   border: none;
   font-size: 1em;
   padding: 5px;
+}
+
+#erreur {
+  color: rgb(222, 7, 7);
+  background: rgba(185, 0, 17, 0.38);
+}
+
+#valide {
+  color: rgb(3, 126, 0);
+  background: rgba(43, 167, 0, 0.42);
 }
 /* -----------------------------------------------
   MAIN

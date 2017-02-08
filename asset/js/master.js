@@ -5,7 +5,7 @@ $(function () {
     $(this).addClass("selection");
     var bloc = $(this).attr("id");
 
-    console.log(bloc);
+
 
     if (bloc === 'accueil'){
       $(".conteneur").removeClass("hidden");
@@ -15,14 +15,17 @@ $(function () {
     }if (bloc === 'experiences'){
       $(".conteneur").removeClass("hidden");
       $(".experiences").removeClass("hidden");
+      $(".conteneur").addClass("zoom");
+      $(".experiences").addClass("zoom");
 
     }if (bloc === 'formations'){
       $(".conteneur").removeClass("hidden");
       $(".formations").removeClass("hidden");
-
+      $(".conteneur").addClass("zoom");
+      $(".formations").addClass("zoom");
     }if (bloc === 'competences'){
       $(".competences").removeClass("hidden");
-
+      $(".competences").addClass("zoom");
     }if (bloc === 'contact'){
         $(".formulaire").removeClass("hidden");
     }
@@ -33,6 +36,7 @@ $(function () {
   function hide() {
     $(".nav-a").removeClass("selection");
     $(".test").removeClass("affichage");
+    $(".test").removeClass("zoom");
     $(".test").addClass("hidden");
   }
 })

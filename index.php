@@ -14,6 +14,11 @@
     <!-- Lien cdm pour fontAwesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
+    <!-- lien pour police ROBOTO -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Sansita:400,400i,700,700i,800,800i,900,900i" rel="stylesheet">
+
     <link rel="stylesheet" href="asset/css/master.css">
 
     <!-- Lien pour jQuerry -->
@@ -115,7 +120,7 @@
               <h3>Certificats de compétence professionnelle</h3>
               <p>Webforce3</p>
               <p>Octobre 2016 à février 2017</p>
-              <p>Dévelopeur Web</p>
+              <p>Intégrateur Web</p>
             </article>
             <article class="">
               <h3>BTS</h3>

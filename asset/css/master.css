@@ -1,0 +1,289 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: 'Sansita', sans-serif;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+body,
+html,
+p {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom, rgba(203, 203, 203, 0.56), white);
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+/* -----------------------------------------------
+  HEADER
+----------------------------------------------- */
+header {
+  box-shadow: 0 5px 5px rgba(108, 108, 108, 0.39);
+  background: white;
+  padding-top: 10px;
+}
+
+header h2 {
+  color: rgb(12, 76, 233);
+}
+
+.header {
+  width: 70%;
+  margin: auto auto 10px;
+}
+
+.liste_navigation {
+  display: flex;
+}
+
+.nav-a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-a:hover {
+  background: rgba(12, 76, 233, 0.5);
+  color: white;
+}
+/* -----------------------------------------------
+  WRAPPER
+----------------------------------------------- */
+.wrapper {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+/* -----------------------------------------------
+  Aside
+----------------------------------------------- */
+aside {
+  width: 25%;
+  margin-right: 50px;
+}
+
+aside div {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 0 25px;
+  background: white;
+}
+
+.photo {
+  width: 75%;
+  display: block;
+  margin: auto auto 10px;
+  border: 1px solid black;
+  border-radius: 0 25px;
+}
+/* Partie Mes liens */
+.liens ul {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.listeLiens li {
+  text-align: center;
+  width: 30%;
+}
+
+.icone {
+  display: block;
+  font-size: 1.5em;
+  color: black;
+  background: rgb(218, 218, 218);
+  width: 100%;
+  border: none;
+}
+
+.icone:hover {
+  color: white;
+  background: black;
+}
+/* Partie Contact */
+.listeContact li {
+  text-align: center;
+  width: 40%;
+}
+
+.contact ul {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.iconeContact {
+  font-size: 2em;
+}
+/*info bull*/
+.infoMail,
+.infoTel {
+  position: absolute;
+}
+/*Partie formulaire*/
+.formulaire {
+  width: 90%;
+  margin: 20px auto 10px;
+}
+
+.formulaire p input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.formulaire p textarea {
+  width: 100%;
+}
+
+.bouton {
+  background: rgb(12, 76, 233);
+  color: white;
+  border: none;
+  font-size: 1em;
+  padding: 5px;
+}
+
+#erreur {
+  color: rgb(222, 7, 7);
+  background: rgba(185, 0, 17, 0.38);
+}
+
+#valide {
+  color: rgb(3, 126, 0);
+  background: rgba(43, 167, 0, 0.42);
+}
+/* -----------------------------------------------
+  MAIN
+----------------------------------------------- */
+main {
+  width: 70%;
+  border: 1px solid black;
+  display: flex;
+  background: white;
+  border-radius: 0 25px;
+}
+
+main h2 {
+  margin-bottom: 10px;
+}
+
+article h3 {
+  color: rgb(12, 76, 233);
+}
+
+article {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 0 25px;
+}
+
+.conteneur {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.experiences,
+.formations {
+  padding: 10px;
+}
+
+.competences {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+/* -----------------------------------------------
+  media inferieur à 800px
+----------------------------------------------- */
+@media (max-width: 800px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  .conteneur {
+    width: 90%;
+  }
+
+  .competences {
+    width: 90%;
+  }
+}
+/* -----------------------------------------------
+  media inferieur à 600px
+----------------------------------------------- */
+@media (max-width: 600px) {
+  .header {
+    width: 90%;
+  }
+
+  .liste_navigation {
+    flex-wrap: wrap;
+  }
+
+  .wrapper {
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  aside {
+    width: 90%;
+    margin: auto;
+  }
+
+  main {
+    width: 90%;
+    margin: auto;
+  }
+}
+/* -----------------------------------------------
+  Pour JS
+----------------------------------------------- */
+.hidden {
+  display: none;
+}
+
+.selection {
+  background: rgba(12, 76, 233, 0.5);
+  color: white;
+}
+
+.zoom {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}

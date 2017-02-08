@@ -77,13 +77,13 @@
           <h3>Mes liens </h3>
           <ul class="listeLiens">
             <li>
-              <button type="button" name="button" class="icone"><i class="fa fa-twitter" aria-hidden="true"></i></button>
+              <a class ="icone" href="https://twitter.com/baca_alexandre"><i class="fa fa-twitter" aria-hidden="true"></i></a>
             </li>
             <li>
-              <button type="button" name="button" class="icone"><i class="fa fa-linkedin" aria-hidden="true"></i></button>
+              <a href="https://www.linkedin.com/in/alexandre-baca-b00886133/" class="icone"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
             </li>
             <li>
-              <button type="button" name="button" class="icone"><i class="fa fa-github" aria-hidden="true"></i></button>
+              <a href="https://github.com/bacaAlexandre" class="icone"><i class="fa fa-github" aria-hidden="true"></i></a>
             </li>
           </ul>
         </div>

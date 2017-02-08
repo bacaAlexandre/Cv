@@ -139,6 +139,29 @@ aside div {
 .iconeContact {
   font-size: 2em;
 }
+/*Partie formulaire*/
+.formulaire {
+  width: 90%;
+  margin: auto;
+}
+
+.formulaire p input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.formulaire p textarea {
+  width: 100%;
+}
+
+.bouton {
+  background: rgb(12, 76, 233);
+  color: white;
+  border: none;
+  font-size: 1em;
+  padding: 5px;
+}
+
 /* -----------------------------------------------
   MAIN
 ----------------------------------------------- */

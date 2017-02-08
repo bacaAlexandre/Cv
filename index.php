@@ -160,37 +160,35 @@
             </ul>
           </article>
         </div>
-        <div class="contact hidden test">
-          <form class="" action="index.html" method="post">
-            <p>
-              <label for="">Prénom :
-                <input type="text" name="" value="">
-              </label>
-            </p>
-            <p>
-              <label for="">Nom :
-                <input type="text" name="" value="">
-              </label>
-            </p>
-            <p>
-              <label for="">E-mail :
-                <input type="mail" name="" value="">
-              </label>
-            </p>
-            <p>
-              <label for="">Objet :
-                <input type="text" name="" value="">
-              </label>
-            </p>
-            <p>
-              <label for="">Message :
-                <textarea name="name" rows="8" cols="80">
-                </textarea>
-              </label>
-            </p>
-            <input type="submit" name="" value="Envoyer">
-          </form>
-        </div>
+        <form class="formulaire hidden test" action="index.html" method="post">
+          <p>
+            <label for="">Prénom :
+              <input type="text" name="" value="">
+            </label>
+          </p>
+          <p>
+            <label for="">Nom :
+              <input type="text" name="" value="">
+            </label>
+          </p>
+          <p>
+            <label for="">E-mail :
+              <input type="mail" name="" value="">
+            </label>
+          </p>
+          <p>
+            <label for="">Objet :
+              <input type="text" name="" value="">
+            </label>
+          </p>
+          <p>
+            <label for="">Message :
+              <textarea name="name" rows="8" cols="80">
+              </textarea>
+            </label>
+          </p>
+          <input type="submit" class="bouton" name="" value="Envoyer">
+        </form>
       </main>
     </div>
   </body>

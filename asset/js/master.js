@@ -24,7 +24,7 @@ $(function () {
       $(".competences").removeClass("hidden");
 
     }if (bloc === 'contact'){
-        $(".contact").removeClass("hidden");
+        $(".formulaire").removeClass("hidden");
     }
   })
 

@@ -195,7 +195,7 @@
               <input type="text" name="objet" value="">
             </label>
           </p>
-          <p>
+          <p class="message">
             <label for="">Message :
               <textarea name="message" rows="8" cols="80"></textarea>
             </label>

@@ -162,6 +162,10 @@ aside div {
   width: 100%;
 }
 
+.message {
+  overflow: auto;
+}
+
 .bouton {
   background: rgb(12, 76, 233);
   color: white;

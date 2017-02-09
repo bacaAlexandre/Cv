@@ -162,6 +162,10 @@ aside div {
   width: 100%;
 }
 
+.message {
+  overflow: auto;
+}
+
 .bouton {
   background: rgb(12, 76, 233);
   color: white;
@@ -223,6 +227,16 @@ article {
   padding: 10px;
 }
 /* -----------------------------------------------
+  Footer
+----------------------------------------------- */
+footer {
+  width: 70%;
+  margin: auto;
+  padding-left: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* -----------------------------------------------
   media inferieur à 800px
 ----------------------------------------------- */
 @media (max-width: 800px) {
@@ -268,6 +282,10 @@ article {
   main {
     width: 90%;
     margin: auto;
+  }
+
+  footer {
+    width: 90%;
   }
 }
 /* -----------------------------------------------

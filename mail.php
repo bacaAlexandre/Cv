@@ -2,8 +2,7 @@
 
 
 
-header('Content-type: application/json');
-
+ header('Content-type: application/json');
 if(empty($_POST['nom'])){
   echo json_encode(array(
     "success" => false,
@@ -29,9 +28,10 @@ if(empty($_POST['nom'])){
         ));
       }else{
         $subject = $_POST['objet'];
-        $message = "Email envoyer par".$_POST['nom']." ".$_POST['prenom'];
-        $message = "Adress email pour repondre".$_POST['email'];
+        $message = "Email envoyer par ".$_POST['nom']."  ".$_POST['prenom']."\r\n";
+        $message .= "Adress email pour repondre : ".$_POST['email']."\r\n";
         $message .= $_POST['message'];
+
 
         $headers  = 'MIME-Version: 1.0' . "\r\n";
         $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";

@@ -117,7 +117,7 @@
               <p>2011</p>
             </article>
           </div>
-          <div class="formations test">
+          <div class="formations test ">
             <h2>Formations</h2>
             <article class="">
               <h3>Certificats de compétence professionnelle</h3>
@@ -145,7 +145,7 @@
             </article>
           </div>
         </div>
-        <div class="competences test">
+        <div class="competences test ">
           <h2>Compétences</h2>
           <article class="web">
             <h3>Web</h3>
@@ -195,17 +195,19 @@
               <input type="text" name="objet" value="">
             </label>
           </p>
-          <p>
+          <p class="message">
             <label for="">Message :
               <textarea name="message" rows="8" cols="80"></textarea>
             </label>
           </p>
           <input type="submit" class="bouton" name="" value="Envoyer">
           <div id="retour">
-
           </div>
         </form>
       </main>
     </div>
+    <footer>
+      <p> Tous droits réservés © Baca Alexandre</p>
+    </footer>
   </body>
 </html>

@@ -2,7 +2,7 @@
 
 
 
-// header('Content-type: application/json');
+ header('Content-type: application/json');
 if(empty($_POST['nom'])){
   echo json_encode(array(
     "success" => false,

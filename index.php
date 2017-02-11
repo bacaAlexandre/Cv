@@ -54,6 +54,12 @@
     <div class="wrapper">
       <aside class="">
         <img class ="photo" src="asset/images/alexandre.jpg" alt="photo d'alexandre baca">
+
+          <a href="CV.pdf" class="telecharger">
+            <i class="fa fa-arrow-down" aria-hidden="true"></i>
+            Télécharger
+          </a>
+
         <div class="info">
           <h3>Infos</h3>
           <ul>

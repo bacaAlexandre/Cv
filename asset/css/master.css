@@ -96,7 +96,7 @@ aside div {
 }
 
 .photo {
-  width: 75%;
+  width: 100%;
   display: block;
   margin: auto auto 10px;
   border: 1px solid black;
@@ -147,41 +147,23 @@ aside div {
 .infoTel {
   position: absolute;
 }
-/*Partie formulaire*/
-.formulaire {
-  width: 90%;
-  margin: 20px auto 10px;
-}
 
-.formulaire p input {
-  width: 100%;
+/*telecharger pdf*/
+
+.telecharger{
+  display: inline-block;
+  padding: 20px;
   margin-bottom: 10px;
-}
-
-.formulaire p textarea {
-  width: 100%;
-}
-
-.message {
-  overflow: auto;
-}
-
-.bouton {
-  background: rgb(12, 76, 233);
-  color: white;
-  border: none;
-  font-size: 1em;
+  color: black;
+  background: rgb(218, 218, 218);
+  text-decoration: none;
   padding: 5px;
 }
 
-#erreur {
-  color: rgb(222, 7, 7);
-  background: rgba(185, 0, 17, 0.38);
-}
 
-#valide {
-  color: rgb(3, 126, 0);
-  background: rgba(43, 167, 0, 0.42);
+.telecharger:hover{
+  color: white;
+  background: black;
 }
 /* -----------------------------------------------
   MAIN
@@ -225,6 +207,42 @@ article {
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
+}
+/*Partie formulaire*/
+.formulaire {
+  width: 90%;
+  margin: 20px auto 10px;
+}
+
+.formulaire p input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.formulaire p textarea {
+  width: 100%;
+}
+
+.message {
+  overflow: auto;
+}
+
+.bouton {
+  background: rgb(12, 76, 233);
+  color: white;
+  border: none;
+  font-size: 1em;
+  padding: 5px;
+}
+
+#erreur {
+  color: rgb(222, 7, 7);
+  background: rgba(185, 0, 17, 0.38);
+}
+
+#valide {
+  color: rgb(3, 126, 0);
+  background: rgba(43, 167, 0, 0.42);
 }
 /* -----------------------------------------------
   Footer

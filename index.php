@@ -47,6 +47,7 @@
             <li><a href="#" class="nav-a" id="formations">Formations</a></li>
             <li><a href="#" class="nav-a" id="competences">Compétences</a></li>
             <li><a href="#" class="nav-a" id="contact">Contact</a></li>
+            <li><a href="#" class="nav-a" id="portfolios">Portfolios</a></li>
           </ul>
         </nav>
       </div>
@@ -210,6 +211,15 @@
           <div id="retour">
           </div>
         </form>
+        <div class="portfolios test hidden">
+          <h2>Portfolios</h2>
+          <article class="">
+            <p>Fond de placard est un site qui vous permet de trouver une recette suivant les ingrédients que vous avez chez vous. J’ai travaillé sur ce projet-là à fin de ma formation chez Webforce3. </p>
+            <a class="fond-de-placard" href="http://fond-de-placard.baca-alexandre.fr/">
+              <img src="asset/images/logo03.png" alt="logo fond de placard">
+            </a>
+          </article>
+        </div>
       </main>
     </div>
     <footer>

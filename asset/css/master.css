@@ -147,10 +147,8 @@ aside div {
 .infoTel {
   position: absolute;
 }
-
 /*telecharger pdf*/
-
-.telecharger{
+.telecharger {
   display: inline-block;
   padding: 20px;
   margin-bottom: 10px;
@@ -160,8 +158,7 @@ aside div {
   padding: 5px;
 }
 
-
-.telecharger:hover{
+.telecharger:hover {
   color: white;
   background: black;
 }
@@ -243,6 +240,23 @@ article {
 #valide {
   color: rgb(3, 126, 0);
   background: rgba(43, 167, 0, 0.42);
+}
+/*portfolios*/
+.portfolios {
+  width: 90%;
+  margin: 10px auto auto;
+}
+
+.portfolios article {
+  display: flex;
+}
+
+.fond-de-placard {
+  width: 50%;
+}
+
+.portfolios img {
+  width: 100%;
 }
 /* -----------------------------------------------
   Footer

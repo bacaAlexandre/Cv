@@ -4,7 +4,6 @@ $(function () {
     hide();
     $(this).addClass("selection");
     var bloc = $(this).attr("id");
-
     if (bloc === 'accueil'){
       $(".conteneur").removeClass("hidden");
       $(".experiences").removeClass("hidden");
@@ -15,7 +14,6 @@ $(function () {
       $(".experiences").removeClass("hidden");
       $(".conteneur").addClass("zoom");
       $(".experiences").addClass("zoom");
-
     }if (bloc === 'formations'){
       $(".conteneur").removeClass("hidden");
       $(".formations").removeClass("hidden");
@@ -25,7 +23,9 @@ $(function () {
       $(".competences").removeClass("hidden");
       $(".competences").addClass("zoom");
     }if (bloc === 'contact'){
-        $(".formulaire").removeClass("hidden");
+      $(".formulaire").removeClass("hidden");
+    }if (bloc === 'portfolios'){
+      $(".portfolios").removeClass("hidden");
     }
   })
 
